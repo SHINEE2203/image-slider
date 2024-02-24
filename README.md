@@ -11,7 +11,7 @@ This is a simple image slider created using HTML, CSS, and JavaScript.
 
 ## Demo
 
-You can see a live demo of the image slider [here](link-to-demo).
+You can see a live demo of the image slider [here]([link-to-demo](https://shinee2203.github.io/image-slider/)).
 
 ## Usage
 
@@ -24,10 +24,6 @@ You can see a live demo of the image slider [here](link-to-demo).
 - `index.html`: HTML file containing the structure of the image slider.
 - `style.css`: CSS file containing the styles for the image slider.
 - `script.js`: JavaScript file containing the logic for the image slider.
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/improvement`).
