@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2484/2484486.png" type="image/x-icon">
+ <title>Image slider</title>
+</head>
+<body>
+  <div class="container">
+    <a class="prev" onclick="add(-1)">&#10094;</a>
+    <div class="slides">
+      <div class="numbertext">1 / 5</div>
+      <img src="https://i0.wp.com/thebusyapron.com/wp-content/uploads/2021/08/wp-1630259900119-scaled.jpg?resize=360%2C540&ssl=1" alt="">
+    </div>
+    
+    <div class="slides">
+      <div class="numbertext">2 / 5</div>
+      <img src="https://i0.wp.com/fromasmallkitchn.com/wp-content/uploads/2023/09/IMG_5455.jpg?resize=360%2C540&ssl=1" alt=""> 
+    </div>
+    
+    <div class="slides">
+      <div class="numbertext">3 / 5</div>
+      <img src="https://i0.wp.com/muditaskitchen.com/wp-content/uploads/2021/03/DSC_9611-scaled.jpg?resize=360%2C540&ssl=1" alt="">
+    </div>
+
+    <div class="slides">
+      <div class="numbertext">4/ 5</div>
+      <img src="https://i0.wp.com/siniscollection.com/wp-content/uploads/2022/03/easyegglesscarroteastercake.jpeg?resize=360%2C540&ssl=1" alt="">
+    </div>
+
+    <div class="slides">
+      <div class="numbertext">5/ 5</div>
+      <img src="https://i0.wp.com/fortheloveofsazon.com/wp-content/uploads/2021/04/img_3983-2.jpg?resize=360%2C540&ssl=1" alt="">
+    </div>
+  <a class="next" onclick="add(1)">&#10095;</a>
+  <input type="checkbox" name="" id="checkbox" onclick="autoplay()">Autoplay
+  </div> <br>
+  <script src="script.js"></script>
+</body>
+</html>

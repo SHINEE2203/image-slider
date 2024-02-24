@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+ }
+.slides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+.container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.numbertext {
+  color:black;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  }
+.slides {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+.next {
+ right: 0;
+  }
