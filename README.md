@@ -11,7 +11,7 @@ This is a simple image slider created using HTML, CSS, and JavaScript.
 
 ## Demo
 
-You can see a live demo of the image slider [here]([link-to-demo](https://shinee2203.github.io/image-slider/)).
+You can see a live demo of the image slider (https://shinee2203.github.io/image-slider/).
 
 ## Usage
 
